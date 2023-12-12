@@ -21,7 +21,7 @@ const Navbar = () => {
       </Link>
       <HamburgerMenu show={show} setShow={setShow} />
       <ul
-        className={`absolute bg-white top-[5vh] w-[100vw] left-0 right-0 shadow-md p-4 text-center grid gap-4 justify-center ${
+        className={`absolute bg-white top-[5vh] w-[100vw] left-0 right-0 shadow-md p-4 text-center grid gap-4 justify-start ${
           show ? "nav_in" : "nav_out"
         } md:flex md:relative md:top-[unset] md:w-fit md:gap-8 md:shadow-none`}
       >
