@@ -151,7 +151,7 @@
     height: fit-content;
     display: grid;
     overflow: hidden;
-    max-height: 35vh;
+    max-height: 30vh;
 }
 
 .nav_out {
@@ -167,7 +167,7 @@
     }
 
     50% {
-        height: 20vh;
+        height: 15vh;
     }
 
     100% {
@@ -181,7 +181,7 @@
     }
 
     50% {
-        height: 20vh;
+        height: 15vh;
     }
 
     100% {
