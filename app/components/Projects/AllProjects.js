@@ -13,7 +13,7 @@ const AllProjects = ({ data }) => {
 
   return (
     <div className="grid gap-[5vh] p-2 md:gap-[20vh]">
-      <span className="flex justify-between text-sm md:text-base md:font-bold gap-2 items-center md:w-[60%] md:m-auto">
+      <span className="flex justify-between text-sm md:text-base md:font-bold gap-2 items-center md:w-[60%] md:m-auto md:gap-6">
         <p
           onClick={() => setCategory("web_development")}
           className={`${
