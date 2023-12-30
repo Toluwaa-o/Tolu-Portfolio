@@ -2,6 +2,7 @@ import Project from "@/app/components/Projects/Project";
 import { PrismaClient } from "@prisma/client";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import AllProjects from "./AllProjects";
 
 const prisma = new PrismaClient();
 
@@ -17,16 +18,13 @@ const Projects = async () => {
   const data = await getProjects();
 
   return (
-    <article className="grid gap-[5vh]">
+    <article id="work" className="grid gap-[5vh]">
       <span className="flex items-center uppercase gap-2 md:mb-[5vh]">
         <span className="bg-black w-[10vw] h-[2px]"></span>
         <h3 className="tracker-wider">Featured Projects</h3>
       </span>
-      <div className="grid gap-[5vh] p-2 md:gap-[20vh]">
-        {data.map((item) => (
-          <Project key={item.id} {...item} />
-        ))}
-      </div>
+
+      <AllProjects data={data} />
 
       <a
         target="_blank"

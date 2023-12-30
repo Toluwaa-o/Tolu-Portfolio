@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import HamburgerMenu from "./Hamburger";
-import Works from "./Works";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 
@@ -21,7 +20,7 @@ const Navbar = () => {
       </Link>
       <HamburgerMenu show={show} setShow={setShow} />
       <ul
-        className={`absolute bg-white top-[5vh] w-[100vw] left-0 right-0 shadow-md p-4 text-center grid gap-4 justify-start ${
+        className={`absolute bg-white top-[5vh] w-[100vw] left-0 right-0 shadow-md p-4 text-center grid gap-4 justify-center ${
           show ? "nav_in" : "nav_out"
         } md:flex md:relative md:top-[unset] md:w-fit md:gap-8 md:shadow-none`}
       >
@@ -37,7 +36,17 @@ const Navbar = () => {
           </Link>
         </li>
 
-        <Works show={show} setShow={setShow} path={path} />
+        <li>
+          <a
+            className={`${
+              path === "/#work" ? "text-black" : "text-gray-600"
+            } font-bold text-lg transition-all md:hover:text-black`}
+            onClick={() => setShow(false)}
+            href="/#work"
+          >
+            <p>Work</p>
+          </a>
+        </li>
 
         <li>
           <Link

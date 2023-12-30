@@ -18,4 +18,5 @@ model portfolios {
   link        String
   toolsUsed   String[]
   featured    Boolean
+  category    String
 }
