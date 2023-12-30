@@ -92,6 +92,7 @@
     height: fit-content;
     display: grid;
     overflow: hidden;
+    max-height: 36vh;
 }
 
 .nav_out {
