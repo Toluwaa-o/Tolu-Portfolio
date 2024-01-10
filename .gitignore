@@ -37,3 +37,6 @@ next-env.d.ts
 
 #API for pushing projects
 /app/api
+
+#data
+/data.js
