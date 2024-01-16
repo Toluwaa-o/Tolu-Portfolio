@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Project from "./Project";
+import data from "@/data";
 
-const AllProjects = ({ data }) => {
+const AllProjects = () => {
   const [portfolioData, setPortfolioData] = useState(null);
   const [category, setCategory] = useState("web_development");
 
