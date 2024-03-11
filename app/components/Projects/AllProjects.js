@@ -6,7 +6,7 @@ import data from "@/data";
 
 const AllProjects = () => {
   const [portfolioData, setPortfolioData] = useState(null);
-  const [category, setCategory] = useState("data_analysis");
+  const [category, setCategory] = useState("web_development");
 
   useEffect(() => {
     setPortfolioData(data.filter((dt) => dt.category === category));
