@@ -1,5 +1,15 @@
 const data = [
   {
+    name: "Musica",
+    description:
+      "Enjoy unlimited access to your favorite artists with easy navigation and seamless playback controls. Discover new music, like your favorite tracks, and customize your listening experience on any device.",
+    desktopView: "/musica.png",
+    toolsUsed: ["NextJS", "Tailwind CSS", "Mongodb", "Context API"],
+    link: "https://musica-toluwaa-o.vercel.app/",
+    featured: true,
+    category: "web_development",
+  },
+  {
     name: "ChatApp",
     description:
       "Explore a web app for text-based user interactions with authentication (Sign Up, Sign In, Sign Out), username search, and secure password storage using Bcrypt encryption.",
@@ -99,8 +109,7 @@ const data = [
     name: "Global Store Data Analysis",
     description:
       "In this project, i created a concise Tableau project offering visual insights into sales, profitability, customer behavior, product performance, and regional dynamics for Global Store Data. Explore trends, correlations, and key metrics through interactive dashboards.",
-    desktopView:
-    "/GlobalStore.png",
+    desktopView: "/GlobalStore.png",
     toolsUsed: ["Tableau"],
     link: "https://public.tableau.com/views/GlobalStoreAnalysis_17053734801330/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
     featured: true,

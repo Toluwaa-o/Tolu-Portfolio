@@ -73,12 +73,12 @@ const Navbar = () => {
         <li>
           <a
             className="text-gray-600 font-bold text-lg transition-all md:hover:text-black"
-            href="https://docs.google.com/document/d/1hQFAw234_02t2OQeKad2MF-HQckYIPAt5U614fkPajk/edit?usp=sharing"
+            href="https://github.com/Toluwaa-o"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setShow(false)}
           >
-            <p>CV / Resume</p>
+            <p>Github</p>
           </a>
         </li>
       </ul>

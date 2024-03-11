@@ -36,7 +36,7 @@ const AllProjects = () => {
           } text-center w-[100%] pb-2 border-b-2`}
           role="button"
         >
-          Data Analysis
+          Data Science
         </p>
       </span>
       {portfolioData &&
