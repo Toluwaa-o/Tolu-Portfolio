@@ -96,6 +96,16 @@ const data = [
     category: "web_development",
   },
   {
+    name: "CMU Face Images Classification",
+    description:
+      "The objective of this project is to develop a convolutional neural network (CNN) model capable of accurately classifying images into one of twenty different categories.",
+    desktopView: "/ml.jpg",
+    toolsUsed: ["Python", "Deep Learning", "TensorFlow", "Keras", 'Machine Learning', 'Numpy'],
+    link: "https://github.com/Toluwaa-o/CMU-Face-Images-Classification",
+    featured: true,
+    category: "data_analysis",
+  },
+  {
     name: "Comparative Analysis: Arsenal FC",
     description:
       "I web scraped Arsenal's 2022/23 and 2023/24 season data from FBREF, cleaned it using Python, exported to CSV, imported to SQL, queried, and visualized findings with Power BI for a report.",
