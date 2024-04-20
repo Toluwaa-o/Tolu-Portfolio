@@ -10,6 +10,27 @@ const data = [
     category: "web_development",
   },
   {
+    name: "Brain Tumor Classification",
+    description:
+      "This model is designed to classify brain scan images into two categories: those containing a tumor and those that do not. It is built using deep learning techniques and trained on a dataset of brain scan images.",
+    desktopView: "/brain_tumor_app.png",
+    toolsUsed: [
+      "NextJS",
+      "Tailwind CSS",
+      "TensorFlow",
+      "Flask",
+      "Python",
+      "Numpy",
+      "CNNs",
+      "Machine Learning",
+      "Deep Learning",
+      "Artificial Intelligence",
+    ],
+    link: "https://brain-tumor-toluwaa.vercel.app/",
+    featured: true,
+    category: "web_development",
+  },
+  {
     name: "ChatApp",
     description:
       "Explore a web app for text-based user interactions with authentication (Sign Up, Sign In, Sign Out), username search, and secure password storage using Bcrypt encryption.",
@@ -96,11 +117,39 @@ const data = [
     category: "web_development",
   },
   {
+    name: "Brain Tumor Classification",
+    description:
+      "This model is designed to classify brain scan images into two categories: those containing a tumor and those that do not. It is built using deep learning techniques and trained on a dataset of brain scan images.",
+    desktopView: "/brain_tumor_app.png",
+    toolsUsed: [
+      "NextJS",
+      "Tailwind CSS",
+      "TensorFlow",
+      "Flask",
+      "Python",
+      "Numpy",
+      "CNNs",
+      "Machine Learning",
+      "Deep Learning",
+      "Artificial Intelligence",
+    ],
+    link: "https://brain-tumor-toluwaa.vercel.app/",
+    featured: true,
+    category: "data_analysis",
+  },
+  {
     name: "CMU Face Images Classification",
     description:
       "The objective of this project is to develop a convolutional neural network (CNN) model capable of accurately classifying images into one of twenty different categories.",
     desktopView: "/ml.jpg",
-    toolsUsed: ["Python", "Deep Learning", "TensorFlow", "Keras", 'Machine Learning', 'Numpy'],
+    toolsUsed: [
+      "Python",
+      "Deep Learning",
+      "TensorFlow",
+      "Keras",
+      "Machine Learning",
+      "Numpy",
+    ],
     link: "https://github.com/Toluwaa-o/CMU-Face-Images-Classification",
     featured: true,
     category: "data_analysis",
