@@ -16,6 +16,7 @@ const data = [
     desktopView: "/brain_tumor_app.png",
     toolsUsed: [
       "NextJS",
+      "Typescript",
       "Tailwind CSS",
       "TensorFlow",
       "Flask",
@@ -124,6 +125,7 @@ const data = [
     toolsUsed: [
       "NextJS",
       "Tailwind CSS",
+      "Typescript",
       "TensorFlow",
       "Flask",
       "Python",
