@@ -5,7 +5,7 @@ const About = () => {
 
       <p className="text-sm tracking-wide leading-7 md:text-lg">
         I'm Toluwalashe Ogunleye—a self-taught full-stack developer and data
-        analyst with a passion for using technology to make a meaningful impact.
+        scientist with a passion for using technology to make a meaningful impact.
         My journey includes continuous learning, hands-on projects, and active
         involvement in the tech community.
       </p>

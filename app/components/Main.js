@@ -52,7 +52,7 @@ export default function Main() {
         </h2>
       </span>
       <p className="md:text-sm md:tracking-wide md:leading-6">
-        I'm a passionate full-stack web developer and data analyst, specializing
+        I'm a passionate full-stack web developer and data scientist, specializing
         in robust web applications and insightful data analysis. Committed to
         continuous learning and contributing meaningful digital solutions.
       </p>
