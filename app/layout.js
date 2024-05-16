@@ -7,7 +7,7 @@ const montserrat = Montserrat({ subsets: ["latin"], weight: "400" });
 export const metadata = {
   title: "Toluwa's Portfolio",
   description:
-    "Hello, my name is Toluwalashe Ogunleye and i am a Full Stack Web Developer.",
+    "Hello, my name is Toluwalashe Ogunleye. I am a Full Stack Web Developer and Data Scientist.",
 };
 
 export default function RootLayout({ children }) {
