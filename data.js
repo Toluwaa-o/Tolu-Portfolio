@@ -1,5 +1,25 @@
 const data = [
   {
+    name: "Stears Lite",
+    description:
+      "A sleek dashboard for exploring African company insights and macroeconomic indicators. Features responsive UI, country-level data, and intuitive navigation built with modern web technologies.",
+    toolsUsed: ["Next.js", "Tailwind CSS", "Axios", "TypeScript", 'Python', 'MongoDB', 'Web Scrapping', 'Data Visualization'],
+    desktopView: '/stears-lite-search-desktop.png',
+    link: "https://stears-lite.vercel.app",
+    featured: true,
+    category: "web_development",
+  },
+  {
+    name: "Stears Lite",
+    description:
+      "A sleek dashboard for exploring African company insights and macroeconomic indicators. Features responsive UI, country-level data, and intuitive navigation built with modern web technologies.",
+    toolsUsed: ["Next.js", "Tailwind CSS", "Axios", "TypeScript", 'Python', 'MongoDB', 'Web Scrapping', 'Data Visualization'],
+    desktopView: '/stears-lite-search-desktop.png',
+    link: "https://stears-lite.vercel.app",
+    featured: true,
+    category: "data_analysis",
+  },
+  {
     name: "Musica",
     description:
       "Enjoy unlimited access to your favorite artists with easy navigation and seamless playback controls. Discover new music, like your favorite tracks, and customize your listening experience on any device.",
