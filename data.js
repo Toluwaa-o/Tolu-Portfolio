@@ -138,42 +138,108 @@ const data = [
     category: "web_development",
   },
   {
-    name: "Brain Tumor Classification",
+    name: "Enhancing Credit Risk Assessment",
     description:
-      "This model is designed to classify brain scan images into two categories: those containing a tumor and those that do not. It is built using deep learning techniques and trained on a dataset of brain scan images.",
-    desktopView: "/brain_tumor_app.png",
+      "In this project, I develop a machine learning model to predict the likelihood of loan defaults, using borrower data like credit scores, income, and loan history.",
+    desktopView: "/risk.jpg",
     toolsUsed: [
-      "NextJS",
-      "Tailwind CSS",
-      "Typescript",
-      "TensorFlow",
-      "Flask",
-      "Python",
-      "Numpy",
-      "CNNs",
+      "Data Science",
+      "Data Analysis",
       "Machine Learning",
-      "Deep Learning",
-      "Artificial Intelligence",
+      "Big Data",
     ],
-    link: "https://brain-tumor-toluwaa.vercel.app/",
-    featured: true,
+    link:
+      "https://medium.com/@asheogunleye02/enhancing-credit-risk-assessment-a-machine-learning-approach-to-predict-borrower-creditworthiness-6e2466296299",
     category: "data_analysis",
   },
   {
-    name: "CMU Face Images Classification",
+    name: "Detecting Fraudulent Online Payments Using Machine Learning Models",
     description:
-      "The objective of this project is to develop a convolutional neural network (CNN) model capable of accurately classifying images into one of twenty different categories.",
-    desktopView: "/ml.jpg",
+      "In this project, I develop a model to detect fraudulent online payments with high precision, minimizing false positives and enhancing security in online transactions.",
+    desktopView: "/fraud.jpg",
     toolsUsed: [
-      "Python",
-      "Deep Learning",
-      "TensorFlow",
-      "Keras",
+      "Data Science",
+      "Data Analysis",
       "Machine Learning",
-      "Numpy",
+      "Big Data",
     ],
-    link: "https://github.com/Toluwaa-o/CMU-Face-Images-Classification",
-    featured: true,
+    link:
+      "https://medium.com/@asheogunleye02/detecting-fraudulent-online-payments-using-machine-learning-models-9a17ec8dc8f8",
+    category: "data_analysis",
+  },
+  {
+    name: "Enhancing Financial Stability: Predictive Modeling for Loan Default Risk at ABC Bank",
+    description:
+      "In this project, I attempt to create a model that accurately predicts loan defaults, enhancing financial stability and risk management for ABC Bank.",
+    desktopView: "/Loan.jpg",
+    toolsUsed: [
+      "Data Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Big Data",
+    ],
+    link:
+      "https://medium.com/@asheogunleye02/enhancing-financial-stability-predictive-modeling-for-loan-default-risk-at-abc-bank-5de99603727b",
+    category: "data_analysis",
+  },
+  {
+    name: "Enhancing Walmart’s Operational Efficiency...",
+    description:
+      "In this project, I attempt to create a predictive model for Walmart's weekly sales using data analysis and machine learning to optimize operations and enhance forecasting accuracy.",
+    desktopView: "/walmart.jpg",
+    toolsUsed: [
+      "Data Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Big Data",
+    ],
+    link:
+      "https://medium.com/@asheogunleye02/enhancing-walmarts-operational-efficiency-achieving-accurate-weekly-sales-predictions-with-b88678c5abaf",
+    category: "data_analysis",
+  },
+  {
+    name: "Boosting Sephora Sales with Advanced Recommendation Systems",
+    description:
+      "In this project, I developed recommendation systems using collaborative and content-based filtering techniques to provide personalized product suggestions and improve user experience for Sephora.",
+    desktopView: "/sephora.jpeg",
+    toolsUsed: [
+      "Data Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Big Data",
+    ],
+    link:
+      "https://medium.com/@asheogunleye02/leveraging-user-reviews-and-product-attributes-a-dual-approach-to-personalized-recommendations-at-b5c1e948e0dc",
+    category: "data_analysis",
+  },
+  {
+    name: "Balanced Tree Clothing Company Sales Report",
+    description:
+      "In this project, I analyzed Balanced Tree Clothing Company's sales performance to uncover insights on top products, segment and category performance, and customer buying patterns.",
+    desktopView: "/fashion.jpg",
+    toolsUsed: [
+      "Data Science",
+      "Data Analysis",
+      "SQL",
+      "Big Data",
+    ],
+    link:
+      "https://medium.com/@asheogunleye02/balanced-tree-clothing-company-sales-report-72b06cfe7b75",
+    category: "data_analysis",
+  },
+  {
+    name: "Predictive Modeling For ATP Tennis Match Outcomes",
+    description:
+      "In this project, I attempt to develop a robust machine learning model capable of predicting tennis match outcomes using a dataset containing detailed historical match information.",
+    desktopView: "/tennis.jpg",
+    toolsUsed: [
+      "Data Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Big Data",
+    ],
+    link:
+      "https://medium.com/@asheogunleye02/predictive-modeling-for-atp-tennis-match-outcomes-a-machine-learning-approach-using-historical-1fc35065fd50",
     category: "data_analysis",
   },
   {
@@ -187,27 +253,6 @@ const data = [
     category: "data_analysis",
   },
   {
-    name: "Global Store Data Analysis",
-    description:
-      "In this project, i created a concise Tableau project offering visual insights into sales, profitability, customer behavior, product performance, and regional dynamics for Global Store Data. Explore trends, correlations, and key metrics through interactive dashboards.",
-    desktopView: "/GlobalStore.png",
-    toolsUsed: ["Tableau"],
-    link: "https://public.tableau.com/views/GlobalStoreAnalysis_17053734801330/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
-    featured: true,
-    category: "data_analysis",
-  },
-  {
-    name: "Audible Dataset Cleaning and Visualization",
-    description:
-      "The Audible Dataset Cleaning and Visualization project involved meticulous cleaning to ensure data integrity. I then utilized visualization tools to represent patterns and key insights, enhancing the dataset's quality for improved interpretation.",
-    desktopView:
-      "https://res.cloudinary.com/dggxyq3pt/image/upload/v1703966972/file%20uploads/tmp-4-1703966971566_iwefuv.jpg",
-    toolsUsed: ["Python", "Power BI"],
-    link: "https://github.com/Toluwaa-o/Audible-Dataset-Cleaning-and-Visualization",
-    featured: true,
-    category: "data_analysis",
-  },
-  {
     name: "Pizza Runner Case Study",
     description:
       "In this project, i used SQL to answer questions involving Pizza metrics, runner and customer experience, ingredient optimization and price and rating.",
@@ -215,28 +260,6 @@ const data = [
       "https://res.cloudinary.com/dggxyq3pt/image/upload/v1703966541/file%20uploads/tmp-2-1703966541635_s0gqx5.jpg",
     toolsUsed: ["SQL"],
     link: "https://github.com/Toluwaa-o/Pizza_Runner",
-    featured: true,
-    category: "data_analysis",
-  },
-  {
-    name: "Danny's Dinner Case Study",
-    description:
-      "Danny aims to analyze customer data for insights into visiting patterns, expenditures, and favorite menu items. The goal is to enhance customer engagement and deliver a personalized dining experience, building stronger connections with loyal patrons at his restaurant.",
-    desktopView:
-      "https://res.cloudinary.com/dggxyq3pt/image/upload/v1703966541/file%20uploads/tmp-2-1703966541635_s0gqx5.jpg",
-    toolsUsed: ["SQL"],
-    link: "https://github.com/Toluwaa-o/Danny-s-Dinner",
-    featured: true,
-    category: "data_analysis",
-  },
-  {
-    name: "Web Scrapping Practice",
-    description:
-      "This project involved hands-on practice with web scraping using BeautifulSoup and Requests. Specifically, I gathered data from FBREF, focusing on extracting and cleaning Premier League table data. The cleaned data was then utilized to create insightful visuals.",
-    desktopView:
-      "https://res.cloudinary.com/dggxyq3pt/image/upload/v1703966760/file%20uploads/tmp-3-1703966759669_ly9x7n.jpg",
-    toolsUsed: ["Python", "Power BI"],
-    link: "https://github.com/Toluwaa-o/Web-Scrapping-Practice",
     featured: true,
     category: "data_analysis",
   },
